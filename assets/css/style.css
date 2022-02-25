@@ -7,3 +7,16 @@
 html{
     font-size: 18px;
 }
+
+div{
+    border: 1px solid black;
+}
+
+.avatar{
+    width: 20%;
+}
+
+.green{
+    color: white;
+    background-color: #1abc9c;
+}
