@@ -28,6 +28,18 @@ input, textarea{
     padding: 5px 0px;
 }
 
+textarea{
+    height: 200px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer section{
+    padding-bottom: 0;
+}
+
 ::placeholder{
     color: #2c3e51;
 }
@@ -53,6 +65,15 @@ input, textarea{
     background-color: #1abc9c !important;
 }
 
+.aqua{
+    color: #1abc9c;
+}
+
+.lightblue{
+    color: white;
+    background-color: #3a546d;
+}
+
 .star::before, .star::after{
     content: "";
     width: 15%;
@@ -65,4 +86,18 @@ input, textarea{
 .star-blue::before, .star-blue::after, .star-blue i{
     color: #2c3e51;
     border-color: #2c3e51;
+}
+
+.social{
+    width: 55px;
+    height: 55px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+footer .col{
+    margin-bottom: 50px;
 }
