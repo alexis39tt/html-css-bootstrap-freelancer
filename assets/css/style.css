@@ -14,8 +14,8 @@ h2{
     font-variant: small-caps;
 }
 
-header{
-    padding: 20px 0px;
+a{
+    color: white !important;
 }
 
 section{
@@ -45,6 +45,10 @@ footer section{
 }
 
 /* CLASSI */
+
+.navbar i{
+    color: white;
+}
 
 .avatar{
     width: 20%;
@@ -96,8 +100,4 @@ footer section{
     display: inline-block;
     padding: 10px;
     margin: 0px 5px;
-}
-
-footer .col{
-    margin-bottom: 50px;
 }
