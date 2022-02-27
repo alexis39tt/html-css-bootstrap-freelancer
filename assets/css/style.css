@@ -22,6 +22,16 @@ section{
     padding: 50px 0px;
 }
 
+input, textarea{
+    border: none;
+    border-bottom: 2px solid lightgray;
+    padding: 5px 0px;
+}
+
+::placeholder{
+    color: #2c3e51;
+}
+
 /* CLASSI */
 
 .avatar{
@@ -39,8 +49,8 @@ section{
 }
 
 .green{
-    color: white;
-    background-color: #1abc9c;
+    color: white !important;
+    background-color: #1abc9c !important;
 }
 
 .star::before, .star::after{
