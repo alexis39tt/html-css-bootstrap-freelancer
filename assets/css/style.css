@@ -1,3 +1,5 @@
+/* VALORI DI DEFAULT E RESET */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,20 @@
 html{
     font-size: 22px;
 }
+
+h2{
+    font-variant: small-caps;
+}
+
+header{
+    padding: 20px 0px;
+}
+
+section{
+    padding: 50px 0px;
+}
+
+/* CLASSI */
 
 .avatar{
     width: 20%;
@@ -27,14 +43,16 @@ html{
     background-color: #1abc9c;
 }
 
-h2{
-    font-variant: small-caps;
+.star::before, .star::after{
+    content: "";
+    width: 15%;
+    border-top: 5px solid white;
+    display: inline-block;
+    border-radius: 30px;
+    transform: translateY(-5px);
 }
 
-header{
-    padding: 20px 0px;
-}
-
-section{
-    padding: 50px 0px;
+.star-blue::before, .star-blue::after, .star-blue i{
+    color: #2c3e51;
+    border-color: #2c3e51;
 }
