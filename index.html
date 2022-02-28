@@ -18,10 +18,10 @@
 </head>
 
 <body>
-    <header class="blue">
+    <header class="blue text-white">
         <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
+                <a class="navbar-brand text-uppercase text-white" href="#">start bootstrap</a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav">
                     <span class="navbar-toggler-icon"></span>
@@ -29,13 +29,13 @@
                 <div class="navbar-collapse justify-content-end collapse" id="navbarNav">
                     <ul class="navbar-nav text-uppercase">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">portfolio</a>
+                            <a class="nav-link text-white" aria-current="page" href="#portfolio">portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
+                            <a class="nav-link text-white" href="#about">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link text-white" href="#contact">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -43,7 +43,7 @@
         </nav>
     </header>
     <main>
-        <section class="green">
+        <section class="green text-white">
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
@@ -61,7 +61,7 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
-                        <h1 class="text-uppercase">portfolio</h1>
+                        <h1 class="text-uppercase" id="portfolio">portfolio</h1>
                         <div class="star star-blue">
                             <i class="fa-solid fa-star pb-4"></i>
                         </div>
@@ -69,31 +69,31 @@
                 </div>
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 imgs">
                     <div class="col">
-                        <img src="./assets/img/cabin.png" alt="cabin" class="rounded">
+                        <img src="./assets/img/cabin.png" alt="cabin" class="rounded mb-3">
                     </div>
                     <div class="col">
-                        <img src="./assets/img/cake.png" alt="cake" class="rounded">
+                        <img src="./assets/img/cake.png" alt="cake" class="rounded mb-3">
                     </div>
                     <div class="col">
-                        <img src="./assets/img/circus.png" alt="circus" class="rounded">
+                        <img src="./assets/img/circus.png" alt="circus" class="rounded mb-3">
                     </div>
                     <div class="col">
-                        <img src="./assets/img/game.png" alt="game" class="rounded">
+                        <img src="./assets/img/game.png" alt="game" class="rounded mb-3">
                     </div>
                     <div class="col">
-                        <img src="./assets/img/safe.png" alt="safe" class="rounded">
+                        <img src="./assets/img/safe.png" alt="safe" class="rounded mb-3">
                     </div>
                     <div class="col">
-                        <img src="./assets/img/submarine.png" alt="submarine" class="rounded">
+                        <img src="./assets/img/submarine.png" alt="submarine" class="rounded mb-3">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="green">
+        <section class="green text-white">
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
-                        <h1 class="text-uppercase">about</h1>
+                        <h1 class="text-uppercase" id="about">about</h1>
                         <div class="star">
                             <i class="fa-solid fa-star pb-3"></i>
                         </div>
@@ -124,7 +124,7 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
-                        <h1 class="text-uppercase">contact me</h1>
+                        <h1 class="text-uppercase" id="contact">contact me</h1>
                         <div class="star star-blue">
                             <i class="fa-solid fa-star pt-2"></i>
                         </div>
@@ -133,12 +133,12 @@
                 <div class="row text-center">
                     <div class="col">
                         <form action="">
-                            <input type="text" name="name" class="input-group" placeholder="Name">
-                            <input type="email" name="email" class="input-group mt-2" placeholder="Email address">
-                            <input type="tel" name="phone" class="input-group mt-2" placeholder="Phone number">
-                            <textarea class="input-group mt-2" placeholder="Message"></textarea>
+                            <input type="text" name="name" class="input-group py-1" placeholder="Name">
+                            <input type="email" name="email" class="input-group mt-2 py-1" placeholder="Email address">
+                            <input type="tel" name="phone" class="input-group mt-2 py-1" placeholder="Phone number">
+                            <textarea class="input-group mt-2 py-1" placeholder="Message"></textarea>
                             <div class="text-start">
-                                <button class="btn green text-start mt-2">Send</button>
+                                <button class="btn green text-start text-white mt-2">Send</button>
                             </div>
                         </form>
                     </div>
@@ -147,34 +147,36 @@
         </section>
     </main>
     <footer>
-        <section class="lightblue">
+        <section class="lightblue text-white pb-0">
             <div class="container text-center">
                 <div class="row row-cols-1 row-cols-lg-3 row-cols-md-3">
                     <div class="col mb-5">
                         <h5>LOCATION</h5>
-                        <p>2215 John Daniel Drive Clark, MO</p>
-                        <p>54243</p>
+                        <p class="m-0">2215 John Daniel Drive Clark, MO</p>
+                        <p class="m-0">54243</p>
                     </div>
                     <div class="col mb-5">
                         <h5>AROUND THE WEB</h5>
-                        <div class="social"><i class="fa-brands fa-facebook-f"></i></div>
-                        <div class="social"><i class="fa-brands fa-google-plus-g"></i></div>
-                        <div class="social"><i class="fa-brands fa-twitter"></i></div>
-                        <div class="social"><i class="fa-brands fa-linkedin"></i></div>
+                        <div class="social d-inline-block rounded-circle border border-white mb-2 mx-1" role="button"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div class="social d-inline-block rounded-circle border border-white mb-2 mx-1" role="button"><i class="fa-brands fa-google-plus-g"></i>
+                        </div>
+                        <div class="social d-inline-block rounded-circle border border-white mx-1" role="button"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="social d-inline-block rounded-circle border border-white mx-1" role="button"><i class="fa-brands fa-linkedin"></i></div>
                     </div>
                     <div class="col mb-5">
                         <h5>ABOUT FREELANCER</h5>
-                        <p>Freelancer is a free to use, open source Bootstrap theme created by <span class="aqua">Start
+                        <p class="m-0">Freelancer is a free to use, open source Bootstrap theme created by <span class="aqua"
+                                role="button">Start
                                 Bootstrap</span>.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="blue">
+        <section class="blue text-white pb-0">
             <div class="container">
                 <div class="row text-center">
                     <div class="col mb-4">
-                        <p>Copyright &copy; Your Website 2019</p>
+                        <p class="m-0">Copyright &copy; Your Website 2019</p>
                     </div>
                 </div>
             </div>
